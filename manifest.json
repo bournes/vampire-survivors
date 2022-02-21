@@ -1,0 +1,15 @@
+{
+    "name": "Vampire Survivors",
+    "short_name": "Vampire Survivors",
+    "display": "fullscreen",
+    "background_color": "#000",
+    "description": "Web Version of VampS",
+    "icons": [
+        {
+            "src": "./vamps.png",
+            "sizes": "72x72 96x96 128x128 256x256",
+            "type": "image/png"
+        }
+
+    ]
+}
