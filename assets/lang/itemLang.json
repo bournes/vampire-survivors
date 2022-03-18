@@ -71,12 +71,17 @@
         "description": "可暂时发出锥形火焰。 受玩家数值影响。",
         "name": "辣酱烘蛋",
         "tips": "掉落率受幸运值影响。"
+      },
+      "RELIC_MAP": {
+        "name": "银河系地图",
+        "description": "永久启用暂停菜单中的地图。",
+        "achievementTips": "暂停菜单地图。"
       }
     }
   },
   "zh-TW": {
     "english": "Chinese (Traditional)",
-    "native": "繁體中文",
+    "native": "繁體中文 95%",
     "api": "tchinese",
     "translations": {}
   },
@@ -157,6 +162,11 @@
         "description": "Temporarily emits cones of flames. Affected by player stats.",
         "name": "Nduja Fritta",
         "tips": "Drop rate affected by Luck."
+      },
+      "RELIC_MAP": {
+        "name": "Milky Way Map",
+        "description": "Permanently enables the map in the pause menu.",
+        "achievementTips": "pause menu map."
       }
     }
   },
@@ -168,7 +178,7 @@
   },
   "fr": {
     "english": "French",
-    "native": "Français",
+    "native": "Français 80%",
     "api": "french",
     "translations": {
       "CLOVER": {
@@ -225,6 +235,11 @@
         "description": "Souffle du feu en cône de façon temporaire. Objet affecté par les stats du joueur.",
         "name": "Nduja Fritta",
         "tips": "Taux de drop affecté par la chance."
+      },
+      "RELIC_MAP": {
+        "name": "Carte de la Voie lactée",
+        "description": "Active de façon permanente la carte dans le menu pause.",
+        "achievementTips": "carte du menu pause."
       }
     }
   },
@@ -287,6 +302,11 @@
         "description": "Setzt vorübergehend Flammenkegel frei. Beeinflusst die Werte des Spielers.",
         "name": "Nduja Fritta",
         "tips": "Die Drop-Rate hängt vom Glück ab."
+      },
+      "RELIC_MAP": {
+        "name": "Milky Way Map",
+        "description": "Permanently enables the map in the pause menu.",
+        "achievementTips": "pause menu map."
       }
     }
   },
@@ -310,7 +330,7 @@
   },
   "ja": {
     "english": "Japanese",
-    "native": "日本語",
+    "native": "日本語 95%",
     "api": "japanese",
     "translations": {
       "CLOVER": {
@@ -367,6 +387,11 @@
         "description": "一時的に円錐形の炎を放出する。 プレイヤーステータスの影響を受ける。",
         "name": "ンドゥヤ・フリッタ",
         "tips": "ドロップ率は運気の影響を受ける。"
+      },
+      "RELIC_MAP": {
+        "name": "天の川マップ",
+        "description": "ポーズメニューでマップが表示されます。",
+        "achievementTips": "ポーズメニューマップ"
       }
     }
   },
@@ -429,6 +454,11 @@
         "description": "바라보는 방향으로 화염을 방사합니다. 플레이어 스탯에 영향을 받습니다.",
         "name": "은두자 프리타",
         "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
+      },
+      "RELIC_MAP": {
+        "name": "은하수 지도",
+        "description": "일시정지 화면에서 지도를 활성화하여 필드의 아이템 위치를 표시합니다.",
+        "achievementTips": "일시정지 메뉴 지도"
       }
     }
   },
@@ -509,6 +539,11 @@
         "description": "Temporáriamente emite cones de chamas. Afetado pelos atributos do jogador.",
         "name": "Nduja Fritta",
         "tips": "Chance de Dropar afetada pela Sorte."
+      },
+      "RELIC_MAP": {
+        "name": "Milky Way Map",
+        "description": "Permanently enables the map in the pause menu.",
+        "achievementTips": "pause menu map."
       }
     }
   },
@@ -524,7 +559,7 @@
     "api": "russian",
     "translations": {
       "CLOVER": {
-        "description": "Поднимите, чтобы стать на 10% удачливее.",
+        "description": "Подберите и станьте на 10% удачливее.",
         "name": "Маленький Клевер"
       },
       "COIN": {
@@ -541,7 +576,7 @@
       },
       "COINBAGMAX": {
         "description": "Добавляет 100 к общему количеству ваших золотых монет.",
-        "name": "Богатый Мешок Монет",
+        "name": "Роскошный Мешок Монет",
         "tips": "Частота выпадения зависит от Удачи."
       },
       "GEM": {
@@ -555,7 +590,7 @@
       },
       "ROAST": {
         "description": "Восстанавливает 30 ОЗ.",
-        "name": "Жаренный Цыпленок",
+        "name": "Жареный Цыпленок",
         "tips": "Частота выпадения зависит от Удачи."
       },
       "ROSARY": {
@@ -564,7 +599,7 @@
         "tips": "Частота выпадения зависит от Удачи."
       },
       "TREASURE": {
-        "description": "Награждает монетами и усилениями. Выпадает из сильных врагов.",
+        "description": "Вознаграждает монетами и усилениями. Выпадает из сильных врагов.",
         "name": "Сундук с Сокровищами",
         "tips": "Качество зависит от Удачи."
       },
@@ -574,15 +609,20 @@
         "tips": "Частота выпадения зависит от Удачи."
       },
       "NFT": {
-        "description": "Временно испускает конус пламени. Зависит от статистики игрока.",
+        "description": "Временно испускает конус пламени. Зависит от характеристик игрока.",
         "name": "Ндуя Фритта",
         "tips": "Частота выпадения зависит от Удачи."
+      },
+      "RELIC_MAP": {
+        "name": "Карта Млечного Пути",
+        "description": "Включает карту в меню паузы.",
+        "achievementTips": "карта в меню паузы."
       }
     }
   },
   "es": {
     "english": "Spanish",
-    "native": "Español",
+    "native": "Español 80%",
     "api": "spanish",
     "translations": {
       "CLOVER": {
@@ -639,6 +679,11 @@
         "description": "Libera salvas de fuego en función de los atributos del jugador.",
         "name": "Enduja Fritta",
         "tips": "Aparece en función de tu suerte."
+      },
+      "RELIC_MAP": {
+        "name": "Milky Way Map",
+        "description": "Permanently enables the map in the pause menu.",
+        "achievementTips": "pause menu map."
       }
     }
   },

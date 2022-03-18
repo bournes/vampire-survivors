@@ -19,7 +19,7 @@
     "translations": {
       "POWER": {
         "name": "力量",
-        "description": "造成的伤害每级别增加 5%（最多 +25%）。"
+        "description": "造成的伤害增加 5%（最多 +25%）。"
       },
       "REGEN": {
         "name": "恢复",
@@ -90,14 +90,14 @@
         "description": "允许跳过升级选择并获得经验。"
       },
       "CURSE": {
-        "name": "Curse",
-        "description": "Increases enemy speed, health, quantity, and frequency by 10% per rank (max +50%)."
+        "name": "诅咒",
+        "description": "敌人的速度，生命值，数量和出现的次数，增加10%(最高+50%)。"
       }
     }
   },
   "zh-TW": {
     "english": "Chinese (Traditional)",
-    "native": "繁體中文",
+    "native": "繁體中文 95%",
     "api": "tchinese",
     "translations": {}
   },
@@ -210,7 +210,7 @@
   },
   "fr": {
     "english": "French",
-    "native": "Français",
+    "native": "Français 80%",
     "api": "french",
     "translations": {
       "POWER": {
@@ -286,8 +286,8 @@
         "description": "Une fois par rang, permet de sauter les choix de montée de niveau et d'obtenir de l'expérience à la place."
       },
       "CURSE": {
-        "name": "Curse",
-        "description": "Increases enemy speed, health, quantity, and frequency by 10% per rank (max +50%)."
+        "name": "Malédiction",
+        "description": "Augmente la vitesse, la santé, la quantité et la fréquence des ennemis de 10% par rang (max +50%)."
       }
     }
   },
@@ -394,7 +394,7 @@
   },
   "ja": {
     "english": "Japanese",
-    "native": "日本語",
+    "native": "日本語 95%",
     "api": "japanese",
     "translations": {
       "POWER": {
@@ -463,15 +463,15 @@
       },
       "REROLL": {
         "name": "リロール",
-        "description": "Once per rank, allows to get different choices when leveling up."
+        "description": "1ランクにつき1回、レベルアッ\nプの際に異なる選択肢を得るこ\nとができる。"
       },
       "SKIP": {
         "name": "スキップ",
-        "description": "Once per rank, allows to skip level up choices and get Experience instead."
+        "description": "1ランクにつき1回、レベルアッ\nプの選択肢をスキップして、代わ\nりに経験値を得ることができる。"
       },
       "CURSE": {
-        "name": "Curse",
-        "description": "Increases enemy speed, health, quantity, and frequency by 10% per rank (max +50%)."
+        "name": "呪い",
+        "description": "敵のスピード、ヘルス、数量、\n頻度をランク毎に10%ずつ増加\nさせる(最大+50%)。"
       }
     }
   },
@@ -553,8 +553,8 @@
         "description": "레벨 당 한번 레벨업 시 선택지를 건너뛰는 대신 경험치를 받습니다."
       },
       "CURSE": {
-        "name": "Curse",
-        "description": "Increases enemy speed, health, quantity, and frequency by 10% per rank (max +50%)."
+        "name": "저주",
+        "description": "레벨 당 10%씩 적들의 속도, 체력, 개체 수, 스폰율을 증가시킵니다. (최대 +50%)"
       }
     }
   },
@@ -654,8 +654,8 @@
         "description": "Uma vez por rank, permite ganhar experiência ao invés de escolher um item ao evoluir."
       },
       "CURSE": {
-        "name": "Curse",
-        "description": "Increases enemy speed, health, quantity, and frequency by 10% per rank (max +50%)."
+        "name": "Maldição",
+        "description": "Aumenta a velocidade, saúde, quantidade e frequência dos inimigos em 10% por rank (max +50%)."
       }
     }
   },
@@ -676,23 +676,23 @@
       },
       "REGEN": {
         "name": "Регенерация",
-        "description": "Восстанавливает 0.1 ОЗ с каждым рангом (макс. 0.5) в секунду."
+        "description": "Восстанавливает 0.1 ОЗ/сек. с каждым рангом (макс. 0.5)."
       },
       "MAXHEALTH": {
         "name": "Макс. ОЗ",
-        "description": "Увеличивает макс. количество ОЗ на 10% с каждым рангом  (макс. +30%)."
+        "description": "Увеличивает макс. количество ОЗ на 10% с каждым рангом (макс. +30%)."
       },
       "ARMOR": {
         "name": "Броня",
-        "description": "Уменьшает получаемый урон на 1 с каждым рангом  (макс. -3)."
+        "description": "Уменьшает получаемый урон на 1 с каждым рангом (макс. -3)."
       },
       "AREA": {
         "name": "Размер",
-        "description": "Увеличивает размер атак на 5% с каждым рангом  (макс. +10%)."
+        "description": "Увеличивает размер атак на 5% с каждым рангом (макс. +10%)."
       },
       "SPEED": {
         "name": "Скорость",
-        "description": "Снаряды двигаются на 10% быстрее с каждым рангом (макс. 20%)."
+        "description": "Снаряды движутся на 10% быстрее с каждым рангом (макс. 20%)."
       },
       "COOLDOWN": {
         "name": "Откат",
@@ -736,21 +736,21 @@
       },
       "REROLL": {
         "name": "Повтор",
-        "description": "Один раз за забег, дает получить другие варианты выбора при повышении уровня."
+        "description": "Один раз за ранг дает получить другие варианты выбора при повышении уровня."
       },
       "SKIP": {
         "name": "Пропуск",
-        "description": "Один раз за забег, дает пропустить выбор при повышения уровня и взамен получить опыт."
+        "description": "Один раз за ранг дает пропустить выбор при повышении уровня и взамен получить опыт."
       },
       "CURSE": {
-        "name": "Curse",
-        "description": "Increases enemy speed, health, quantity, and frequency by 10% per rank (max +50%)."
+        "name": "Проклятье",
+        "description": "Увеличивает скорость, ОЗ, кол-во и частоту появления врагов на 10% за ранг (макс. +50%)."
       }
     }
   },
   "es": {
     "english": "Spanish",
-    "native": "Español",
+    "native": "Español 80%",
     "api": "spanish",
     "translations": {
       "POWER": {

@@ -217,19 +217,34 @@
         "tips": "要求: 复制器."
       },
       "CURSE": {
-        "name": "Skull O'Maniac",
-        "description": "Increases enemy speed, health, quantity, and frequency by 10%."
+        "name": "疯狂骷髅",
+        "description": "敌人增加10%的速度，生命值，数量和次数。"
       },
       "CHERRY": {
-        "name": "Cherry Bomb",
-        "description": "Throws a bouncing projectile. Explodes, sometimes.",
-        "tips": "Best with: luck."
+        "name": "樱桃炸弹",
+        "description": "扔出一个弹跳的射弹， 有时会爆炸。",
+        "tips": "搭配: 幸运."
+      },
+      "SONG": {
+        "name": "法力之歌",
+        "description": "垂直攻击，穿过敌人。",
+        "tips": "忽略:数量，速度。"
+      },
+      "MANNAGGIA": {
+        "name": "曼纳加",
+        "description": "进化出魔法之歌，可能会减慢敌人的速度。",
+        "tips": "要求:疯狂骷髅"
+      },
+      "SIRE": {
+        "name": "Gorgeous Moon",
+        "description": "Evolved Pentagram. Generates extra gems and gathers all of them.",
+        "tips": "Requires: Crown."
       }
     }
   },
   "zh-TW": {
     "english": "Chinese (Traditional)",
-    "native": "繁體中文",
+    "native": "繁體中文 95%",
     "api": "tchinese",
     "translations": {}
   },
@@ -463,6 +478,21 @@
         "name": "Cherry Bomb",
         "description": "Throws a bouncing projectile. Explodes, sometimes.",
         "tips": "Best with: luck."
+      },
+      "SONG": {
+        "name": "Song of Mana",
+        "description": "Attacks vertically, passes through enemies.",
+        "tips": "Ignores: amount, speed."
+      },
+      "MANNAGGIA": {
+        "name": "Mannajja",
+        "description": "Evolved Song of Mana. Might slow enemies down.",
+        "tips": "Requires: Skull O'Maniac"
+      },
+      "SIRE": {
+        "name": "Gorgeous Moon",
+        "description": "Evolved Pentagram. Generates extra gems and gathers all of them.",
+        "tips": "Requires: Crown."
       }
     }
   },
@@ -474,7 +504,7 @@
   },
   "fr": {
     "english": "French",
-    "native": "Français",
+    "native": "Français 80%",
     "api": "french",
     "translations": {
       "WHIP": {
@@ -677,13 +707,28 @@
         "tips": "Requiert: Duplicateur."
       },
       "CURSE": {
-        "name": "Skull O'Maniac",
-        "description": "Increases enemy speed, health, quantity, and frequency by 10%."
+        "name": "Crâne O'Maniac",
+        "description": "Augmente la vitesse, la santé, la quantité et la fréquence des ennemis de 10%."
       },
       "CHERRY": {
-        "name": "Cherry Bomb",
-        "description": "Throws a bouncing projectile. Explodes, sometimes.",
-        "tips": "Best with: luck."
+        "name": "Bombe Cerise",
+        "description": "Lance un projectile rebondissant. Explose, parfois.",
+        "tips": "Meilleur avec: chance."
+      },
+      "SONG": {
+        "name": "Chanson de Mana",
+        "description": "Attaque verticalement, passe à travers les ennemis.",
+        "tips": "Ignore: quantité, puissance de tir."
+      },
+      "MANNAGGIA": {
+        "name": "Mannajja",
+        "description": "Évolution de la Chanson de Mana. Peut ralentir les ennemis.",
+        "tips": "Requiert: Crâne O'Maniac"
+      },
+      "SIRE": {
+        "name": "Gorgeous Moon",
+        "description": "Evolved Pentagram. Generates extra gems and gathers all of them.",
+        "tips": "Requires: Crown."
       }
     }
   },
@@ -899,6 +944,21 @@
         "name": "Cherry Bomb",
         "description": "Throws a bouncing projectile. Explodes, sometimes.",
         "tips": "Best with: luck."
+      },
+      "SONG": {
+        "name": "Song of Mana",
+        "description": "Attacks vertically, passes through enemies.",
+        "tips": "Ignores: amount, speed."
+      },
+      "MANNAGGIA": {
+        "name": "Mannajja",
+        "description": "Evolved Song of Mana. Might slow enemies down.",
+        "tips": "Requires: Skull O'Maniac"
+      },
+      "SIRE": {
+        "name": "Gorgeous Moon",
+        "description": "Evolved Pentagram. Generates extra gems and gathers all of them.",
+        "tips": "Requires: Crown."
       }
     }
   },
@@ -922,7 +982,7 @@
   },
   "ja": {
     "english": "Japanese",
-    "native": "日本語",
+    "native": "日本語 95%",
     "api": "japanese",
     "translations": {
       "WHIP": {
@@ -1102,36 +1162,51 @@
         "description": "ライフを毎秒0.2ずつ回復する。"
       },
       "VORTEX": {
-        "name": "Soul Eater",
-        "description": "Evolved Garlic. Steals hearts. Power increases when recovering HP.",
-        "tips": "Requires: Pummarola."
+        "name": "魂食らい",
+        "description": "進化したニンニク。ハートを盗む。\nHP回復時に威力が増加する。",
+        "tips": "必要アイテム：愛の心臓"
       },
       "BORA": {
-        "name": "La Borra",
-        "description": "Evolved Santa Water. Damaging zones follow you and grow when they move.",
-        "tips": "Requires: Attractorb."
+        "name": "ラ・ボッラ",
+        "description": "進化した聖水。ダメージゾーンが、\n自身に引き寄せられつつ大きくなっていく。",
+        "tips": "必要アイテム：誘引のオーブ"
       },
       "SILF3": {
-        "name": "Vandalier",
-        "description": "Union of Ebony Wings and Peachone."
+        "name": "破壊者",
+        "description": "漆黒の翼と純白の翼の合体"
       },
       "REVIVAL": {
-        "name": "Tiragisú",
-        "description": "Revives once with 50% health."
+        "name": "ティラギス",
+        "description": "体力が50%の状態で1回だけ復活する。"
       },
       "LOOP": {
-        "name": "Thunder Loop",
-        "description": "Evolved Lightning Ring. Projectiles strike twice.",
-        "tips": "Requires: Duplicator."
+        "name": "雷鳴の環",
+        "description": "進化した稲妻の指輪。稲妻が2回当たる。",
+        "tips": "必要アイテム：複製の指輪"
       },
       "CURSE": {
-        "name": "Skull O'Maniac",
-        "description": "Increases enemy speed, health, quantity, and frequency by 10%."
+        "name": "スコル・オマニアック",
+        "description": "敵のスピード、ヘルス、数量、頻度が10%増加する。"
       },
       "CHERRY": {
-        "name": "Cherry Bomb",
-        "description": "Throws a bouncing projectile. Explodes, sometimes.",
-        "tips": "Best with: luck."
+        "name": "サクラ爆弾",
+        "description": "弾むような投擲物を投げる。時々爆発する。",
+        "tips": "ベストな組み合わせ：運気"
+      },
+      "SONG": {
+        "name": "ソング・オブ・マナ",
+        "description": "垂直方向に攻撃し、 敵を貫通する。",
+        "tips": "量、速度を無視する"
+      },
+      "MANNAGGIA": {
+        "name": "マンナイヤ",
+        "description": "進化したソング・オブ・マナ。 敵の動きを遅くすることがある。",
+        "tips": "必要アイテム：スコル・オマニアック"
+      },
+      "SIRE": {
+        "name": "Gorgeous Moon",
+        "description": "Evolved Pentagram. Generates extra gems and gathers all of them.",
+        "tips": "Requires: Crown."
       }
     }
   },
@@ -1166,7 +1241,7 @@
         "tips": "파워업 무시: 지속시간"
       },
       "SCYTHE": {
-        "name": "죽음의 소용돌이",
+        "name": "죽음의 나선",
         "description": "도끼의 강화형. 적을 관통합니다.",
         "tips": "요구 사항: 촛대"
       },
@@ -1201,13 +1276,13 @@
         "tips": "요구 사항: 시금치."
       },
       "HOLYBOOK": {
-        "name": "왕의 성서",
-        "description": "성서가 주변을 회전하며 공격합니다",
+        "name": "기도문",
+        "description": "기도문이 주변을 회전하며 공격합니다",
         "tips": "추천 조합: 투사체 속도, 지속시간, 공격범위"
       },
       "VESPERS": {
-        "name": "불경한 기도",
-        "description": "왕의 성서의 강화형. 사라지지 않습니다.",
+        "name": "불경한 기도문",
+        "description": "기도문의 강화형. 사라지지 않습니다.",
         "tips": "요구 사항: 주문속박기"
       },
       "CROSS": {
@@ -1340,13 +1415,28 @@
         "tips": "요구 사항: 복제 반지"
       },
       "CURSE": {
-        "name": "Skull O'Maniac",
-        "description": "Increases enemy speed, health, quantity, and frequency by 10%."
+        "name": "미치광이의 두개골",
+        "description": "적들의 속도, 체력, 개체 수, 스폰율을 10% 증가시킵니다."
       },
       "CHERRY": {
-        "name": "Cherry Bomb",
-        "description": "Throws a bouncing projectile. Explodes, sometimes.",
-        "tips": "Best with: luck."
+        "name": "체리폭탄",
+        "description": "튕겨나오며 확률적으로 폭발하는 투사체를 던집니다.",
+        "tips": "추천 조합: 행운"
+      },
+      "SONG": {
+        "name": "마나의 노래",
+        "description": "수직으로 공격하며 적을 관통합니다.",
+        "tips": "파워업 무시: 투사체 갯수, 투사체 속도"
+      },
+      "MANNAGGIA": {
+        "name": "마력의 결정체",
+        "description": "마나의 노래의 강화형. 적을 느려지게 만듭니다.",
+        "tips": "요구 사항: 미치광이의 두개골"
+      },
+      "SIRE": {
+        "name": "매혹의 달",
+        "description": "오망성의 강화형. 추가 보석을 생성하고 처치한 적의 보석을 흡수합니다.",
+        "tips": "요구 사항: 왕관."
       }
     }
   },
@@ -1573,13 +1663,28 @@
         "tips": "Requer: Duplicador."
       },
       "CURSE": {
-        "name": "Skull O'Maniac",
-        "description": "Increases enemy speed, health, quantity, and frequency by 10%."
+        "name": "Caveira do Maniaco",
+        "description": "Aumenta a velocidade, saúde, quantidade e frequência dos inimigos em 10%."
       },
       "CHERRY": {
-        "name": "Cherry Bomb",
-        "description": "Throws a bouncing projectile. Explodes, sometimes.",
-        "tips": "Best with: luck."
+        "name": "Bomba de Brinquedo",
+        "description": "Explodes, sometimes. Atira um projétil que quica. Explode, as vezes.",
+        "tips": "Melhor com: sorte."
+      },
+      "SONG": {
+        "name": "Song of Mana",
+        "description": "Attacks vertically, passes through enemies.",
+        "tips": "Ignores: amount, speed."
+      },
+      "MANNAGGIA": {
+        "name": "Mannajja",
+        "description": "Evolved Song of Mana. Might slow enemies down.",
+        "tips": "Requires: Skull O'Maniac"
+      },
+      "SIRE": {
+        "name": "Gorgeous Moon",
+        "description": "Evolved Pentagram. Generates extra gems and gathers all of them.",
+        "tips": "Requires: Crown."
       }
     }
   },
@@ -1602,7 +1707,7 @@
       "VAMPIRICA": {
         "name": "Кровавая Слеза",
         "description": "Улучшенный Кнут. Может наносить критический урон и поглощать ОЗ.",
-        "tips": "Требует: Пустое Сердце."
+        "tips": "Требует: Полое Сердце."
       },
       "MAGIC_MISSILE": {
         "name": "Чарующий Жезл",
@@ -1622,11 +1727,11 @@
       "SCYTHE": {
         "name": "Спираль Смерти",
         "description": "Улучшенный Топор. Проходит сквозь врагов.",
-        "tips": "Требует: Канделябр."
+        "tips": "Требует: Канделябрадор."
       },
       "KNIFE": {
         "name": "Нож",
-        "description": "Быстро метаются в направлении взгляда.",
+        "description": "Быстро метается в направлении взгляда.",
         "tips": "Игнорирует: срок."
       },
       "THOUSAND": {
@@ -1636,13 +1741,13 @@
       },
       "HOLYWATER": {
         "name": "Святая Вода",
-        "description": "Создает зоны наносящие урон.",
+        "description": "Создает зоны, наносящие урон.",
         "tips": "Игнорирует: скорость."
       },
       "DIAMOND": {
-        "name": "Рунтрейсер",
-        "description": "Проходит сквозь врагов, отскакивает.",
-        "tips": "Лучше сочитается с: скорость, срок."
+        "name": "Рунтрассер",
+        "description": "Проходит сквозь врагов, отскакивает от стен.",
+        "tips": "Лучше сочетается с: скорость, срок."
       },
       "FIREBALL": {
         "name": "Огненный Жезл",
@@ -1657,11 +1762,11 @@
       "HOLYBOOK": {
         "name": "Библия Короля",
         "description": "Кружится вокруг персонажа.",
-        "tips": "Лучше сочитается с: скорость, срок, размер."
+        "tips": "Лучше сочетается с: скорость, срок, размер."
       },
       "VESPERS": {
         "name": "Жуткая Вечерня",
-        "description": "Улучшенная Библия Короля. Никогда не заканчивается.",
+        "description": "Улучшенная Библия Короля. Никогда не прекращается.",
         "tips": "Требует: Заклинатель."
       },
       "CROSS": {
@@ -1682,35 +1787,35 @@
       "LAUREL": {
         "name": "Лавр",
         "description": "Защищает от урона, когда активен.",
-        "tips": "Лучше сочитается с: только откат."
+        "tips": "Лучше сочетается с: только откат."
       },
       "LIGHTNING": {
-        "name": "Кольцо Молнии",
+        "name": "Кольцо Молний",
         "description": "Бьет в случайных врагов.",
         "tips": "Игнорирует: скорость, срок."
       },
       "PENTAGRAM": {
         "name": "Пентаграмма",
         "description": "Стирает все в поле зрения.",
-        "tips": "Лучше сочитается с: только откат и удача."
+        "tips": "Лучше сочетается с: только откат и удача."
       },
       "SILF": {
-        "name": "Пишон",
+        "name": "Голубь",
         "description": "Бомбардирует в кружащейся зоне.",
-        "tips": "Лучше сочитается с: откат, срок."
+        "tips": "Лучше сочетается с: откат, срок."
       },
       "SILF2": {
         "name": "Черные Крылья",
         "description": "Бомбардирует в кружащейся зоне.",
-        "tips": "Лучше сочитается с: откат, срок."
+        "tips": "Лучше сочетается с: откат, срок."
       },
       "BONE": {
         "name": "Кость",
         "description": "Бросает отскакивающий снаряд.",
-        "tips": "Лучше сочитается с: срок, скорость."
+        "tips": "Лучше сочетается с: срок, скорость."
       },
       "LANCET": {
-        "name": "Часы Ланцет",
+        "name": "Копье Времени",
         "description": "Шанс временно заморозить врагов.",
         "tips": "Игнорирует: сила, скорость, количество, размер."
       },
@@ -1719,7 +1824,7 @@
         "description": "Увеличивает наносимый урон на 10%."
       },
       "AREA": {
-        "name": "Канделябр",
+        "name": "Канделябрадор",
         "description": "Увеличивает размер атак на 10%."
       },
       "SPEED": {
@@ -1732,14 +1837,14 @@
       },
       "DURATION": {
         "name": "Заклинатель",
-        "description": "Продливает эффект оружия на 10%."
+        "description": "Продлевает эффект оружия на 10%."
       },
       "AMOUNT": {
-        "name": "Дубликатор",
+        "name": "Дупликатор",
         "description": "Оружие выпускает больше снарядов."
       },
       "MAXHEALTH": {
-        "name": "Пустое Сердце",
+        "name": "Полое Сердце",
         "description": "Увеличивает макс. ОЗ на 20%."
       },
       "ARMOR": {
@@ -1767,13 +1872,13 @@
         "description": "Персонаж зарабатывает на 10% больше монет."
       },
       "REGEN": {
-        "name": "Пуммарола",
-        "description": "Персонаж восстанавливает 0.2 ОЗ в секунду."
+        "name": "Бычье Сердце",
+        "description": "Персонаж восстанавливает 0.2 ОЗ/сек."
       },
       "VORTEX": {
         "name": "Пожиратель Душ",
         "description": "Улучшенный Чеснок. Крадет сердца. Сила возрастает при регенерации ОЗ.",
-        "tips": "Требует: Пуммарола."
+        "tips": "Требует: Бычье Сердце."
       },
       "BORA": {
         "name": "Гуща",
@@ -1782,31 +1887,46 @@
       },
       "SILF3": {
         "name": "Вандалист",
-        "description": "Союз Черных Крыльев и Пишона."
+        "description": "Союз Черных Крыльев и Голубя."
       },
       "REVIVAL": {
         "name": "Тирагису",
         "description": "Оживляет один раз с 50% ОЗ."
       },
       "LOOP": {
-        "name": "Громовая петля",
-        "description": "Улучшенное Кольцо Молнии. Снаряды бьют дважды.",
-        "tips": "Требует: Дубликатор."
+        "name": "Громовая Петля",
+        "description": "Улучшенное Кольцо Молний. Снаряды бьют дважды.",
+        "tips": "Требует: Дупликатор."
       },
       "CURSE": {
-        "name": "Skull O'Maniac",
-        "description": "Increases enemy speed, health, quantity, and frequency by 10%."
+        "name": "Череп О'Маньяка",
+        "description": "Увеличивает скорость, ОЗ, кол-во и частоту появления врагов на 10%."
       },
       "CHERRY": {
-        "name": "Cherry Bomb",
-        "description": "Throws a bouncing projectile. Explodes, sometimes.",
-        "tips": "Best with: luck."
+        "name": "Вишневая Бомба",
+        "description": "Выпускает отскакивающий снаряд. Иногда взрывается.",
+        "tips": "Лучше сочетается с: удача."
+      },
+      "SONG": {
+        "name": "Песнь Маны",
+        "description": "Атакует вертикально, проходя сквозь врагов.",
+        "tips": "Игнорирует: количество, скорость."
+      },
+      "MANNAGGIA": {
+        "name": "Маннаджа",
+        "description": "Улучшенная Песнь Маны. Может замедлить врагов.",
+        "tips": "Требует: Череп О'Маньяка"
+      },
+      "SIRE": {
+        "name": "Красивая Луна",
+        "description": "Улучшенная Пентаграмма. Создает доп. самоцветы и собирает их все.",
+        "tips": "Требует: Корона."
       }
     }
   },
   "es": {
     "english": "Spanish",
-    "native": "Español",
+    "native": "Español 80%",
     "api": "spanish",
     "translations": {
       "WHIP": {
@@ -2016,6 +2136,21 @@
         "name": "Cherry Bomb",
         "description": "Throws a bouncing projectile. Explodes, sometimes.",
         "tips": "Best with: luck."
+      },
+      "SONG": {
+        "name": "Song of Mana",
+        "description": "Attacks vertically, passes through enemies.",
+        "tips": "Ignores: amount, speed."
+      },
+      "MANNAGGIA": {
+        "name": "Mannajja",
+        "description": "Evolved Song of Mana. Might slow enemies down.",
+        "tips": "Requires: Skull O'Maniac"
+      },
+      "SIRE": {
+        "name": "Gorgeous Moon",
+        "description": "Evolved Pentagram. Generates extra gems and gathers all of them.",
+        "tips": "Requires: Crown."
       }
     }
   },

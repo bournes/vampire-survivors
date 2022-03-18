@@ -1,8 +1,8 @@
 <font>
-	<info face="C:\Users\Luca\Desktop\damNum-export" size="80" />
+	<info face="damNum-export" size="80" />
 	<common lineHeight="80" scaleW="24" scaleH="27" pages="1" />
 	<pages>
-		<page id="0" file="C:\Users\Luca\Desktop\damNum-export.png" />
+		<page id="0" file="damNum-export.png" />
 	</pages>
 	<chars count="12">
 		<char id="48" x="6" y="9" width="5" height="7" xoffset="0" yoffset="73" xadvance="6" /><!-- 0 -->
