@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<meta name="theme-color" content="#000000" />
+	<link rel="manifest" href="./manifest.json" />
+	<meta name="mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="application-name" content="Vampire Survivors" />
+	<meta name="apple-mobile-web-app-title" content="Vampire Survivors" />
+	<meta name="msapplication-starturl" content="./" />
+	<link rel="icon" type="image/png" sizes="192x192" href="./icons/icons-192.png" />
+	<link rel="apple-touch-icon" type="image/png" sizes="192x192" href="./icons/icons-192.png" />
+	<link rel="icon" type="image/png" sizes="512x512" href="./icons/icons-512.png" />
+	<link rel="apple-touch-icon" type="image/png" sizes="512x512" href="./icons/icons-512.png" />
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+	<title>Vampire Survivors</title>
+	<style>
+		html,
+		body {
+			height: 100%;
+			margin: 0;
+			background-color: #000000;
+		}
+	</style>
+	<style media="screen">
+		@font-face {
+			font-family: fontANY;
+			src: url('src/assets/fonts/ANY.ttf');
+			font-weight: 400;
+			font-weight: normal;
+		}
+
+		@font-face {
+			font-family: fontKO;
+			src: url('src/assets/fonts/KO.ttf');
+			font-weight: 400;
+			font-weight: normal;
+		}
+
+		#settings {
+			position: absolute;
+			background: #fff;
+		}
+	</style>
+</head>
+
+<body>
+	<noscript>Please enable javascript to continue using this application.</noscript>
+	<div id="settings"></div>
+	<div id="phaser-game"></div>
+
+	<script defer="defer">
+		const global = {
+			anims_disabled: {
+				type: 'checkbox',
+				value: false
+			}
+		}
+
+		Object.keys(global).forEach(key => {
+			const label = document.createElement('label');
+			label.innerText = key;
+
+			const input = document.createElement("input");
+			input.type = global[key].type;
+
+			if (input.type == 'checkbox') {
+				input.checked = global[key].value;
+
+				input.addEventListener('change', () => {
+					global[key].value = input.checked
+				})
+			}
+
+			label.append(input)
+
+			document.getElementById('settings').append(label);
+		});
+
+	</script>
+	<script defer="defer" src="vendors.bundle.js"></script>
+	<script defer="defer" src="./main.bundle.mod.js"></script>
+</body>
+
+</html>
